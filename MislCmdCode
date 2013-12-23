@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Missle Command Rehash">
+<meta name="author" content="Eric Naff">
+<title>Missle Command</title>
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/style.css">
+<style type="text/css">
+</style>
+<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+	<body>
+    <div id="rocket"></div>
+		<article>
+        
+			<header id="masthead">
+            
+				<h1>Missle Command</h1>	
+			</header>
+			
+		    <section>
+		    	<video width="1240" height="600" controls poster="img/mcimg.png" preload="none">
+                 <source src="vid/misscmd.webm" type="video/webm">
+                 <source src="vid/misscmd.mp4" type="video/mp4">
+                 <source src="vid/miscmd.ogv" type="video/ogg">
+                 <!-- fallback to Flash: -->
+			<object width="1190" height="500" type="application/x-shockwave-flash" data="player/StrobeMediaPlayback.swf">
+			<!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
+			<param name="movie" value="player/StrobeMediaPlayback.swf" />
+			<param name="flashvars" value="controlbar=over&amp;image=img/mcimg.jpg&amp;src=../vid/misscmd.mp4" />
+			<!-- fallback image. note the title field below, put the title of the video there -->
+			<img src="img/mcimg.jpg" width="1190" height="500" alt="Missle Command"
+		    title="No video playback capabilities, please download the video below" />
+			</object>
+				</video>
+			<!-- you *must* offer a download link as they may be able to play the file locally. -->
+			<p>	<strong>Download Video:</strong>
+				Closed Format:	<a href="vid/misscmd.mp4">"MP4"</a>
+				Open Format:	<a href="vid/miscmd.ogv">"Ogg"</a>
+			</p>
+                 
+                 
+            </section>
+            
+			
+            <blockquote cite="http://en.wikipedia.org/wiki/Missile_Command">
+            	<p><span style="float:left;color:#000;font-size:44px;line-height:35px;padding-top:3px; padding-right:3px;font-family: Times, serif, Georgia;">M</span>issile Command is a 1980 arcade game by Atari, Inc. that was also licensed to Sega for European release. It is considered one of the most notable games from the Golden Age of Video Arcade Games. The plot of Missile Command is simple: the player's six cities are being attacked by an endless hail of ballistic missiles, some of them even splitting like multiple independently targetable reentry vehicles (MIRVs), and in later levels smart bombs which can evade a less than perfectly targeted missile. As a regional commander of three anti-missile batteries, the player must defend six cities in their zone from being destroyed.
+                </p>
+                <p>The game is played by moving a crosshair across the sky background via a trackball and pressing one of three buttons to launch a counter-missile from the appropriate battery. Counter-missiles explode upon reaching the crosshair, leaving a fireball that persists for several seconds and destroys any enemy missiles that enter it. There are three batteries, each with ten missiles; a missile battery becomes useless when all its missiles are fired, or if the battery is destroyed by enemy fire. The missiles of the central battery fly to their targets at much greater speed; only these missiles can effectively kill a smart bomb at a distance.
+				</p>
+
+				<p>The game inevitably ends when all six cities have been wiped out. Like most early arcade games, there is no way to "win" the game; the game just keeps going with ever faster and more prolific incoming missiles. The game, then, is just a contest in seeing how long the player can survive. On conclusion of the game, the screen displays "The End", perhaps a poke at oncoming Nuclear Holocaust rather than the standard "Game Over" text (however, if the player is able to make the high score list, the game then prompts the player to enter his/her initials, with the "The End" sequence skipped).</p>
+                
+				<p>The game features an interesting bug: once a score of 810,000 is reached, a large number of cities are awarded (150 cities plus the continuing accrual of bonus cities) and it is possible to carry on playing for several hours. At some later stage the speed of missiles increases greatly for a few screens. On the 255th and 256th yellow screens, known as the 0x stages, the scoring increases by 256 times the base value. For good players these two 0x stages could earn over a million points. This enabled them to reach a score of approximately 2,800,000 (although only 6 digit scores were shown, so it would display 800,000) and at this point the accelerated rate would suddenly cease and the game would restart at its original (slow) speed and return to the first stage, but with the score and any saved cities retained. In this way it was possible to play this game for hours on end.</p>
+            </blockquote>
+            <img class="miscmdimg" src="img/mcmdIll.svg" alt="Missle Image">
+            <!--[if IE]>
+			<img class="miscmdimgFB" src="img/mcmdIll.gif" width="500px" height="400px">
+
+			<style type="text/css">
+				.miscmdimg {display:none;}
+			</style>
+
+			<![endif]-->
+			<footer>
+            	<small>This site is for educational use only</small>
+            </footer>
+		</article>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+ 		<script src="js/fittext.js"></script>
+        <script type="text/javascript">
+		$("h1").fitText(1);
+		</script>
+		
+		
+	</body>
+</html>
