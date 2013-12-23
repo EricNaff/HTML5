@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FaceBook Search</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+
+</head>
+
+<body>
+	<article class="searchWrap">
+    <a id="FBlogo" href="https://www.facebook.com/?ref=logo" data-gt="{"chrome_nav_item":"logo_chrome"}"></a>
+	<input class="searchQuery" type="input" maxlength="150" placeholder="Search for people, places and things">
+    <button class="startSearch" type="button"></button>
+    </article>
+</body>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/scripts.js" type="text/javascript" media="screen"></script>
+</html>
